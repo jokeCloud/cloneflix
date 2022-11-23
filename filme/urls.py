@@ -1,7 +1,7 @@
-"""
-from .views import filme
+from django.urls import path
+
+from .views import homepage
 
 urlpatterns = [
-    path('', filme, name='filme'),
+    path('', homepage, name='homepage'),
 ]
-"""
